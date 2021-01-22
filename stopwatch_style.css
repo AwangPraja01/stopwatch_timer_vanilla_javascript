@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #202040;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_app {
+  width: 50%;
+}
+
+.btn {
+  font-family: "Lobster", cursive;
+  letter-spacing: 0.1em;
+  font-size: 2.2em;
+  width: 100%;
+  height: 2.5em;
+  background-color: transparent;
+  border: 8px solid #851de0;
+  border-radius: 8px;
+  outline: none;
+  color: white;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: #851de0;
+}
+
+.btn:first-child {
+  margin-inline-end: 0.5em;
+}
+
+.btn:last-child {
+  margin-inline-start: 0.5em;
+}
+
+.stopwatch_timer {
+  font-family: "Bebas Neue", cursive;
+  font-size: 5em;
+  text-align: center;
+  color: white;
+  margin: 0.5em 0;
+}
+
+.stopwatch_btn {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  color: white;
+}
+
+.app_title,
+.app_creator {
+  display: block;
+  font-family: "Lobster", cursive;
+  text-align: center;
+  color: white;
+}
+
+.app_title {
+  font-size: 4em;
+}
+
+.app_creator {
+  font-size: 1.5em;
+}
+
+@media only screen and (max-width: 750px) {
+  .btn {
+    font-size: 2em;
+    border-width: 5px;
+    padding: 10px;
+  }
+
+  .stopwatch_btn {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .stopwatch_btn {
+    justify-content: center;
+  }
+
+  .app_title {
+    font-size: 3em;
+  }
+
+  .stopwatch_timer {
+    font-size: 4em;
+  }
+
+  .btn {
+    font-size: 2em;
+    border-width: 5px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .stopwatch_timer {
+    font-size: 3em;
+  }
+
+  .btn {
+    font-size: 1.5em;
+    border-width: 5px;
+    padding: 10px;
+  }
+
+  .app_title {
+    font-size: 2em;
+  }
+  .app_creator {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .stopwatch_timer {
+    font-size: 2.5em;
+  }
+}
