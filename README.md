@@ -1,5 +1,5 @@
 # Project Description :bread:
-Whenever I go out to eat and I'm having a hard time calculating the right tip, I'll fumble with my phone and search for a "tip calculator" on Google. So to solve that problem I created a calculator application that can calculate how many tips should be given to people. I created this application using __Javascript, HTML, and CSS__.
+This stopwatch application is an application that is useful for calculating elapsed time and this application is very useful if you want to time an activity or other things that require this application. I created this application using __Javascript, HTML, and CSS__.
 
 # Project Link :link:
 You can see the results of this project by opening the following link https://codepen.io/Darkcode0110/full/NWRVdNK
